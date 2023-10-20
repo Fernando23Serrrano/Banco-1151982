@@ -1,0 +1,132 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#img {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los botones */
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px;
+}
+
+button, a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px 0;
+}
+
+#buttons-container button:hover, #buttons-container a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el campo de texto */
+input[type="text"] {
+    width: 200px; /* Ancho del campo de texto */
+    padding: 10px; /* Relleno interno */
+    border: 2px solid #ccc; /* Borde con color gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 10px 0; /* Espacio entre el campo de texto y otros elementos */
+}
+
+/* Estilo para el botón "Cancelar" */
+button {
+    padding: 10px 20px; /* Tamaño del botón */
+    background-color: #3643f4; /* Color de fondo rojo */
+    color: #fff; /* Color del texto blanco */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px; /* Espacio entre los botones */
+    cursor: pointer;
+}
+
+/* Estilo para el botón "Continuar" */
+button.continuar {
+    background-color: #007BFF; /* Color de fondo azul */
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
